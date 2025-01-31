@@ -1,12 +1,15 @@
 public class FizzBuzz {
-    private final int num;
+    private int num;
 
-    public FizzBuzz(int num) {
-        this.num = num;
+    public FizzBuzz() {
     }
 
     public int getNum() {
         return num;
+    }
+
+    public void setNum(int num){
+        this.num = num;
     }
 
     public void fizzBuzz() {
